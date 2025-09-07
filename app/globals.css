@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom global CSS here */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1B1F4B;
+}
+::-webkit-scrollbar-thumb {
+  background: #C62828;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A91D1D;
+}
